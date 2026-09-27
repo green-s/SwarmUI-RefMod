@@ -74,7 +74,7 @@ public class H3RefModExtension : Extension
         InstallerGroup = new(
             Name: "RefMod",
             Toggles: false,
-            Open: true,
+            Open: false,
             IsAdvanced: false,
             OrderPriority: 9,
             Description: "Install the ComfyUI-MiniMaxH3Mod node package required to use MiniMax H3 RefMods selected from the embedding library."
